@@ -15,6 +15,7 @@ function dice2 () {
 
 var dice_face1 = dice1();
 var dice_face2 = dice2();
+// alert(dice_face1);
 
 if (dice_face1 > dice_face2) {
     document.querySelector("h1").innerHTML = "Player 1 Wins";
@@ -28,6 +29,6 @@ else {
     document.querySelector("h1").innerHTML = "Draw!";
 }
 
-document.querySelector("img1").setAttribute("src, dice_face1");
-document.querySelector("img2").setAttribute("src, dice_face2");
+document.querySelector(".img1").setAttribute("src", dice_face1);
+document.querySelector(".img2").setAttribute("src", dice_face2);
 
