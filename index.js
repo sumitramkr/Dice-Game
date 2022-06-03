@@ -29,6 +29,6 @@ else {
     document.querySelector("h1").innerHTML = "Draw!";
 }
 
-document.querySelector(".img1").setAttribute("src", dice_face1);
-document.querySelector(".img2").setAttribute("src", dice_face2);
+document.querySelector(".img1").setAttribute("src", dice_face1); //use without quotes if variable
+document.querySelector(".img2").setAttribute("src", dice_face2); //use .img2 for class in querySelector
 
